@@ -13,8 +13,6 @@ extension HomeView {
     func unwrapTaskName(_ initTasIndex: Int) -> String {
         var returnTaskName: String = ""
         if GetDataInput().retrieveData().count > 0{
-            print("************************\(GetDataInput().retrieveData().count)")
-            print("************************\(initTasIndex)")
             if let recievedTaskName = GetDataInput().retrieveData()[initTasIndex].taskName{
                 returnTaskName = recievedTaskName
             }
@@ -399,10 +397,8 @@ extension HomeView {
         content.sound = UNNotificationSound.default
         if let recievedCountDown = GetDataInput().retrieveData()[taskIndexForNotifications].intervalCountDown{
             timeIntervalCountDown = Double(recievedCountDown)!
-            print("@@@@@@@@@@@@@@@@@@@@@ \(timeIntervalCountDown)")
         }
         let date = Date().addingTimeInterval(TimeInterval(timeIntervalCountDown))
-        print("******************** interval count down \(timeIntervalCountDown)")
         let dateComponents = Calendar.current.dateComponents(
             [.year, .month, .day, .hour, .minute, .second], from: date
         )

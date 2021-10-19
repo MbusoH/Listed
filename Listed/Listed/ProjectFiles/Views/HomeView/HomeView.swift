@@ -40,10 +40,7 @@ class HomeView: UITableViewController,  UITextFieldDelegate, UNUserNotificationC
         super.viewDidAppear(animated)
         taskInputField.delegate = self
         inputCounter.title = "30"
-        setDueDates{
-            self.localNotification()
-            print("this function is running!!!!!!!!!!!!!!!!!!")
-        }
+        setDueDates{self.localNotification()}
         self.tableView.reloadData()
     }
 
@@ -61,7 +58,6 @@ class HomeView: UITableViewController,  UITextFieldDelegate, UNUserNotificationC
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeViewCell", for: indexPath) as! HomeViewCell
         // Configure the cell...
         cell.taskName.text = unwrapTaskName(indexPath.row)
-        print("ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ^\(indexPath.row)")
         cell.dueDate.text = unwrapDueDate(indexPath.row)
         cell.isPriority.text = unwrapIsPriority( indexPath.row)
         cell.taskDescription.text = unwrapDescription(indexPath.row)

@@ -14,7 +14,6 @@ extension DetailView{
         if let recievedDescription = descriptionInput.text{
             if let recievedIndex = self.tappedIndex{
                 //GetDataInput().saveTaskDescription(recievedIndex, recievedDescription)
-                //print("ˆ##########################\( tappedIndex)")
             }
         }
     }
@@ -22,6 +21,9 @@ extension DetailView{
     func unwrapPlaceHolders(){
         checkIfDuedatePasted()
         let indexForNewTask: Int = GetDataInput().retrieveData().count > 0 ? GetDataInput().retrieveData().count - 1: GetDataInput().retrieveData().count
+        if tappedIndex == nil{
+            tappedIndex = indexForNewTask
+        }
         descriptionInput.text = GetDataInput().retrieveData()[indexForNewTask].taskDescription
         if let recievedTaskDescription = self.taskDescriptionForDetailView{
             descriptionInput.text = recievedTaskDescription
@@ -86,10 +88,8 @@ extension DetailView{
     func checkIfDuedatePasted(){
         if GetDataInput().retrieveData().count > 0{
             for i in 0...(GetDataInput().retrieveData().count - 1){
-                print("%%%%%%%%%%%%%%%%%%%%%%%%%%% \(GetDataInput().retrieveData()[i].dueDate)")
                 if let recievedDate = GetDataInput().retrieveData()[i].dueDate{
                     let dueDatePasted: Int = HomeView().daysLeftToDueDate(recievedDate)
-                    print("%%%%%%%%%%%%%%%%%%%%%%%%%%% \(dueDatePasted)")
                     if dueDatePasted <= 0{
                         dueDateLabel.text = "OVER DUE!!!"
                         dueDateLabel.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
@@ -234,17 +234,18 @@ extension DetailView{
     
     func deleteMainTaskAutoComplete(_ initAllCompletedSubTasks: [String], _ initTaskIndex: Int){
         if GetSubTasks().retrieveData().count  ==  initAllCompletedSubTasks.count{
-            print("@@@@@@@@@@@ running")
-            let mainTaskToDelet: String = HomeView().unwrapTaskName(initTaskIndex)
-            let taskComplete: String = "Complete"
-            let dateNow: String = HomeView().getCurrentDate()
-            GetDataInput().deleteTask(mainTaskToDelet, dateNow, taskComplete)
-            deletingAllValuesStored(initAllCompletedSubTasks)
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "NavigationView" )
-            HomeView().tableView.reloadData()
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true)
+            if let recievedIndex = tappedIndex{
+                let mainTaskToDelet: String = HomeView().unwrapTaskName(recievedIndex)
+                let taskComplete: String = "Complete"
+                let dateNow: String = HomeView().getCurrentDate()
+                GetDataInput().deleteTask(mainTaskToDelet, dateNow, taskComplete)
+                deletingAllValuesStored(initAllCompletedSubTasks)
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyboard.instantiateViewController(withIdentifier: "NavigationView" )
+                HomeView().tableView.reloadData()
+                vc.modalPresentationStyle = .fullScreen
+                self.present(vc, animated: true)
+            }
         }
     }
     

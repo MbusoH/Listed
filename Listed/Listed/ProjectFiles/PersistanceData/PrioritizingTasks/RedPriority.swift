@@ -59,7 +59,6 @@ class GetPrioritizedRed{
         do{
             if let retrievedData =  try context.fetch(fetchRequest) as? [PrioritizeTaskRed]{ 
                 dataFromDatabase = retrievedData
-                //print("_________________________ nunber of tasks in red \(dataFromDatabase.count)")
             }
         } catch let error as NSError{
             print("Error\(error)")
