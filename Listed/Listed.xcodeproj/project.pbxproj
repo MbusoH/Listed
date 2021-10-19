@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95858D822708A14500182F05 /* PrioritizeTaskRed+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D802708A14500182F05 /* PrioritizeTaskRed+CoreDataClass.swift */; };
+		95858D832708A14500182F05 /* PrioritizeTaskRed+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D812708A14500182F05 /* PrioritizeTaskRed+CoreDataProperties.swift */; };
+		95858D852708A1CA00182F05 /* RedPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D842708A1CA00182F05 /* RedPriority.swift */; };
+		95858D862708A1CA00182F05 /* RedPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D842708A1CA00182F05 /* RedPriority.swift */; };
+		95858D872708A1CA00182F05 /* RedPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D842708A1CA00182F05 /* RedPriority.swift */; };
+		95858D8A2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D882708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift */; };
+		95858D8B2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D882708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift */; };
+		95858D8C2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D882708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift */; };
+		95858D8D2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D892708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift */; };
+		95858D8E2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D892708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift */; };
+		95858D8F2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D892708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift */; };
+		95858D912708AA3B00182F05 /* GreenPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D902708AA3B00182F05 /* GreenPriority.swift */; };
+		95858D922708AA3B00182F05 /* GreenPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D902708AA3B00182F05 /* GreenPriority.swift */; };
+		95858D932708AA3B00182F05 /* GreenPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D902708AA3B00182F05 /* GreenPriority.swift */; };
+		95858D962708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D942708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift */; };
+		95858D972708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D942708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift */; };
+		95858D982708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D942708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift */; };
+		95858D992708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D952708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift */; };
+		95858D9A2708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D952708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift */; };
+		95858D9B2708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D952708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift */; };
+		95858D9D2708B1CD00182F05 /* BluePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D9C2708B1CD00182F05 /* BluePriority.swift */; };
+		95858D9E2708B1CD00182F05 /* BluePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D9C2708B1CD00182F05 /* BluePriority.swift */; };
+		95858D9F2708B1CD00182F05 /* BluePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95858D9C2708B1CD00182F05 /* BluePriority.swift */; };
 		959EB12926FC974B00F45128 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EB12826FC974B00F45128 /* HomeViewCell.swift */; };
 		959EB12A26FC974B00F45128 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EB12826FC974B00F45128 /* HomeViewCell.swift */; };
 		959EB12B26FC974B00F45128 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EB12826FC974B00F45128 /* HomeViewCell.swift */; };
@@ -27,16 +50,16 @@
 		95ADF01E26F0A94D00A08306 /* removedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF01D26F0A94D00A08306 /* removedTasks.swift */; };
 		95ADF02226F0A99900A08306 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02126F0A99900A08306 /* HomeView.swift */; };
 		95ADF02626F0AA0100A08306 /* HomeViewFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02526F0AA0100A08306 /* HomeViewFunc.swift */; };
-		95ADF02E26F0AC0A00A08306 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02826F0AC0A00A08306 /* Task+CoreDataClass.swift */; };
-		95ADF02F26F0AC0A00A08306 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02926F0AC0A00A08306 /* Task+CoreDataProperties.swift */; };
 		95ADF03026F0AC0A00A08306 /* RemovedTasks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02A26F0AC0A00A08306 /* RemovedTasks+CoreDataClass.swift */; };
 		95ADF03126F0AC0A00A08306 /* RemovedTasks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02B26F0AC0A00A08306 /* RemovedTasks+CoreDataProperties.swift */; };
 		95ADF03226F0AC0A00A08306 /* SubTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02C26F0AC0A00A08306 /* SubTask+CoreDataClass.swift */; };
 		95ADF03326F0AC0A00A08306 /* SubTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF02D26F0AC0A00A08306 /* SubTask+CoreDataProperties.swift */; };
-		95B495402700F35F009780AF /* PrioritizeTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B4953E2700F35F009780AF /* PrioritizeTask+CoreDataClass.swift */; };
-		95B495412700F35F009780AF /* PrioritizeTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B4953F2700F35F009780AF /* PrioritizeTask+CoreDataProperties.swift */; };
-		95B495442700F489009780AF /* Prioritizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B495432700F489009780AF /* Prioritizing.swift */; };
 		95B49546270288A5009780AF /* DetailViewFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B49545270288A5009780AF /* DetailViewFuncs.swift */; };
+		95B5C77E271DBD9400425D3B /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5C77C271DBD9400425D3B /* Task+CoreDataClass.swift */; };
+		95B5C77F271DBD9400425D3B /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5C77D271DBD9400425D3B /* Task+CoreDataProperties.swift */; };
+		95B5C782271DF19E00425D3B /* suTasksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5C781271DF19E00425D3B /* suTasksData.swift */; };
+		95B5C784271DF6F700425D3B /* subTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5C783271DF6F700425D3B /* subTaskCell.swift */; };
+		95CF95A2271E9A93006CA743 /* TestingAutoCompleteFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF95A1271E9A93006CA743 /* TestingAutoCompleteFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +80,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95858D802708A14500182F05 /* PrioritizeTaskRed+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTaskRed+CoreDataClass.swift"; path = "DatabaseFiles/PrioritizeTaskRed+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95858D812708A14500182F05 /* PrioritizeTaskRed+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTaskRed+CoreDataProperties.swift"; path = "DatabaseFiles/PrioritizeTaskRed+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95858D842708A1CA00182F05 /* RedPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPriority.swift; sourceTree = "<group>"; };
+		95858D882708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTaskGreen+CoreDataClass.swift"; path = "DatabaseFiles/PrioritizeTaskGreen+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95858D892708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTaskGreen+CoreDataProperties.swift"; path = "DatabaseFiles/PrioritizeTaskGreen+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95858D902708AA3B00182F05 /* GreenPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenPriority.swift; sourceTree = "<group>"; };
+		95858D942708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PriotizeTaskBlue+CoreDataClass.swift"; path = "DatabaseFiles/PriotizeTaskBlue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95858D952708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PriotizeTaskBlue+CoreDataProperties.swift"; path = "DatabaseFiles/PriotizeTaskBlue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95858D9C2708B1CD00182F05 /* BluePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePriority.swift; sourceTree = "<group>"; };
 		959EB12826FC974B00F45128 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewCell.swift; path = ../../../../../JustDoIt/JustDoIt/ProjectFiles/Views/HomeView/HomeViewCell.swift; sourceTree = "<group>"; };
 		959EB12D26FDF55300F45128 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		959EB12F26FE12DD00F45128 /* ProgressViewFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewFuncs.swift; sourceTree = "<group>"; };
@@ -81,16 +113,16 @@
 		95ADF01D26F0A94D00A08306 /* removedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removedTasks.swift; sourceTree = "<group>"; };
 		95ADF02126F0A99900A08306 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		95ADF02526F0AA0100A08306 /* HomeViewFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewFunc.swift; sourceTree = "<group>"; };
-		95ADF02826F0AC0A00A08306 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "DatabaseFiles/Task+CoreDataClass.swift"; sourceTree = "<group>"; };
-		95ADF02926F0AC0A00A08306 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "DatabaseFiles/Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		95ADF02A26F0AC0A00A08306 /* RemovedTasks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RemovedTasks+CoreDataClass.swift"; path = "DatabaseFiles/RemovedTasks+CoreDataClass.swift"; sourceTree = "<group>"; };
 		95ADF02B26F0AC0A00A08306 /* RemovedTasks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RemovedTasks+CoreDataProperties.swift"; path = "DatabaseFiles/RemovedTasks+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		95ADF02C26F0AC0A00A08306 /* SubTask+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SubTask+CoreDataClass.swift"; path = "DatabaseFiles/SubTask+CoreDataClass.swift"; sourceTree = "<group>"; };
 		95ADF02D26F0AC0A00A08306 /* SubTask+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SubTask+CoreDataProperties.swift"; path = "DatabaseFiles/SubTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		95B4953E2700F35F009780AF /* PrioritizeTask+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTask+CoreDataClass.swift"; path = "DatabaseFiles/PrioritizeTask+CoreDataClass.swift"; sourceTree = "<group>"; };
-		95B4953F2700F35F009780AF /* PrioritizeTask+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PrioritizeTask+CoreDataProperties.swift"; path = "DatabaseFiles/PrioritizeTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		95B495432700F489009780AF /* Prioritizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prioritizing.swift; sourceTree = "<group>"; };
 		95B49545270288A5009780AF /* DetailViewFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewFuncs.swift; sourceTree = "<group>"; };
+		95B5C77C271DBD9400425D3B /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "DatabaseFiles/Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95B5C77D271DBD9400425D3B /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "DatabaseFiles/Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95B5C781271DF19E00425D3B /* suTasksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suTasksData.swift; sourceTree = "<group>"; };
+		95B5C783271DF6F700425D3B /* subTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subTaskCell.swift; sourceTree = "<group>"; };
+		95CF95A1271E9A93006CA743 /* TestingAutoCompleteFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAutoCompleteFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +164,14 @@
 		95ADEFD826F0A85A00A08306 = {
 			isa = PBXGroup;
 			children = (
-				95B4953E2700F35F009780AF /* PrioritizeTask+CoreDataClass.swift */,
-				95B4953F2700F35F009780AF /* PrioritizeTask+CoreDataProperties.swift */,
-				95ADF02826F0AC0A00A08306 /* Task+CoreDataClass.swift */,
-				95ADF02926F0AC0A00A08306 /* Task+CoreDataProperties.swift */,
+				95B5C77C271DBD9400425D3B /* Task+CoreDataClass.swift */,
+				95B5C77D271DBD9400425D3B /* Task+CoreDataProperties.swift */,
+				95858D942708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift */,
+				95858D952708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift */,
+				95858D882708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift */,
+				95858D892708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift */,
+				95858D802708A14500182F05 /* PrioritizeTaskRed+CoreDataClass.swift */,
+				95858D812708A14500182F05 /* PrioritizeTaskRed+CoreDataProperties.swift */,
 				95ADF02A26F0AC0A00A08306 /* RemovedTasks+CoreDataClass.swift */,
 				95ADF02B26F0AC0A00A08306 /* RemovedTasks+CoreDataProperties.swift */,
 				95ADF02C26F0AC0A00A08306 /* SubTask+CoreDataClass.swift */,
@@ -177,6 +213,7 @@
 			children = (
 				95ADEFFE26F0A85D00A08306 /* ListedTests.swift */,
 				95ADF00026F0A85D00A08306 /* Info.plist */,
+				95CF95A1271E9A93006CA743 /* TestingAutoCompleteFunction.swift */,
 			);
 			path = ListedTests;
 			sourceTree = "<group>";
@@ -202,6 +239,7 @@
 		95ADF01826F0A89000A08306 /* PersistanceData */ = {
 			isa = PBXGroup;
 			children = (
+				95B5C780271DF15700425D3B /* SubTasks */,
 				95B495422700F408009780AF /* PrioritizingTasks */,
 				95ADF01C26F0A91D00A08306 /* RemovedTasks */,
 				95ADF01926F0A8A200A08306 /* MainTasksDataProvider */,
@@ -250,6 +288,7 @@
 			children = (
 				95ADEFE826F0A85A00A08306 /* DetailView.swift */,
 				95B49545270288A5009780AF /* DetailViewFuncs.swift */,
+				95B5C783271DF6F700425D3B /* subTaskCell.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -257,9 +296,19 @@
 		95B495422700F408009780AF /* PrioritizingTasks */ = {
 			isa = PBXGroup;
 			children = (
-				95B495432700F489009780AF /* Prioritizing.swift */,
+				95858D842708A1CA00182F05 /* RedPriority.swift */,
+				95858D902708AA3B00182F05 /* GreenPriority.swift */,
+				95858D9C2708B1CD00182F05 /* BluePriority.swift */,
 			);
 			path = PrioritizingTasks;
+			sourceTree = "<group>";
+		};
+		95B5C780271DF15700425D3B /* SubTasks */ = {
+			isa = PBXGroup;
+			children = (
+				95B5C781271DF19E00425D3B /* suTasksData.swift */,
+			);
+			path = SubTasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,27 +443,35 @@
 			files = (
 				95ADEFEF26F0A85A00A08306 /* Listed.xcdatamodeld in Sources */,
 				95ADF02226F0A99900A08306 /* HomeView.swift in Sources */,
+				95B5C77E271DBD9400425D3B /* Task+CoreDataClass.swift in Sources */,
 				95ADF01E26F0A94D00A08306 /* removedTasks.swift in Sources */,
-				95ADF02F26F0AC0A00A08306 /* Task+CoreDataProperties.swift in Sources */,
+				95858D832708A14500182F05 /* PrioritizeTaskRed+CoreDataProperties.swift in Sources */,
+				95858D822708A14500182F05 /* PrioritizeTaskRed+CoreDataClass.swift in Sources */,
 				959EB13426FE83D300F45128 /* InProgressCell.swift in Sources */,
-				95B495442700F489009780AF /* Prioritizing.swift in Sources */,
+				95858D912708AA3B00182F05 /* GreenPriority.swift in Sources */,
+				95858D992708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */,
 				95ADF03226F0AC0A00A08306 /* SubTask+CoreDataClass.swift in Sources */,
+				95858D8D2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */,
+				95858D852708A1CA00182F05 /* RedPriority.swift in Sources */,
 				95ADEFE926F0A85A00A08306 /* DetailView.swift in Sources */,
 				95ADF03126F0AC0A00A08306 /* RemovedTasks+CoreDataProperties.swift in Sources */,
+				95858D9D2708B1CD00182F05 /* BluePriority.swift in Sources */,
+				95858D8A2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */,
+				95B5C782271DF19E00425D3B /* suTasksData.swift in Sources */,
 				95ADF03026F0AC0A00A08306 /* RemovedTasks+CoreDataClass.swift in Sources */,
 				95ADEFE526F0A85A00A08306 /* AppDelegate.swift in Sources */,
 				959EB13226FE75D600F45128 /* RemovedItemCell.swift in Sources */,
 				95B49546270288A5009780AF /* DetailViewFuncs.swift in Sources */,
-				95ADF02E26F0AC0A00A08306 /* Task+CoreDataClass.swift in Sources */,
 				959EB13026FE12DD00F45128 /* ProgressViewFuncs.swift in Sources */,
-				95B495402700F35F009780AF /* PrioritizeTask+CoreDataClass.swift in Sources */,
-				95B495412700F35F009780AF /* PrioritizeTask+CoreDataProperties.swift in Sources */,
 				95ADF02626F0AA0100A08306 /* HomeViewFunc.swift in Sources */,
 				95ADEFE726F0A85A00A08306 /* SceneDelegate.swift in Sources */,
+				95858D962708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */,
 				959EB12926FC974B00F45128 /* HomeViewCell.swift in Sources */,
+				95B5C77F271DBD9400425D3B /* Task+CoreDataProperties.swift in Sources */,
 				959EB12E26FDF55300F45128 /* ProgressView.swift in Sources */,
 				95ADF03326F0AC0A00A08306 /* SubTask+CoreDataProperties.swift in Sources */,
 				95ADF01B26F0A90000A08306 /* mainTasks.swift in Sources */,
+				95B5C784271DF6F700425D3B /* subTaskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +479,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95858D9A2708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */,
 				95ADEFFF26F0A85D00A08306 /* ListedTests.swift in Sources */,
+				95858D972708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */,
 				959EB12A26FC974B00F45128 /* HomeViewCell.swift in Sources */,
+				95858D9E2708B1CD00182F05 /* BluePriority.swift in Sources */,
+				95858D862708A1CA00182F05 /* RedPriority.swift in Sources */,
+				95858D922708AA3B00182F05 /* GreenPriority.swift in Sources */,
+				95858D8E2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */,
+				95CF95A2271E9A93006CA743 /* TestingAutoCompleteFunction.swift in Sources */,
+				95858D8B2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +496,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95858D9B2708B14900182F05 /* PriotizeTaskBlue+CoreDataProperties.swift in Sources */,
 				95ADF00A26F0A85D00A08306 /* ListedUITests.swift in Sources */,
+				95858D982708B14900182F05 /* PriotizeTaskBlue+CoreDataClass.swift in Sources */,
 				959EB12B26FC974B00F45128 /* HomeViewCell.swift in Sources */,
+				95858D9F2708B1CD00182F05 /* BluePriority.swift in Sources */,
+				95858D872708A1CA00182F05 /* RedPriority.swift in Sources */,
+				95858D932708AA3B00182F05 /* GreenPriority.swift in Sources */,
+				95858D8F2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataProperties.swift in Sources */,
+				95858D8C2708A9FD00182F05 /* PrioritizeTaskGreen+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

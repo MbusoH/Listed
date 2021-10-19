@@ -7,17 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "06C89974-BB26-4B00-A32A-FAD7F53A768B"
-            shouldBeEnabled = "Yes"
+            uuid = "F3345462-6830-49C0-A63D-820C451129D7"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../JustDoIt/JustDoIt/ProjectFiles/Views/HomeView/HomeViewCell.swift"
+            filePath = "Listed/ProjectFiles/Views/HomeView/HomeViewFunc.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "HomeViewCell"
-            landmarkType = "3">
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "confirmRemoveTaskComplete(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3345462-6830-49C0-A63D-820C451129D7 - c8ee2e29083c178"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Listed.HomeView.confirmRemoveTaskComplete(Swift.Int) -&gt; ()"
+                  moduleName = "Listed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mbuso/Desktop/Mbuso2021/ios/UIkit/Listed/Listed/ProjectFiles/Views/HomeView/HomeViewFunc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "1170">
+               </Location>
+               <Location
+                  uuid = "F3345462-6830-49C0-A63D-820C451129D7 - 9604e5e81a4d92a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Listed.HomeView.confirmRemoveTaskComplete(Swift.Int) -&gt; ()"
+                  moduleName = "Listed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mbuso/Desktop/Mbuso2021/ios/UIkit/Listed/Listed/ProjectFiles/Views/HomeView/HomeViewFunc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
